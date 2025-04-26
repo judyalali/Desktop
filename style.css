@@ -1,9 +1,9 @@
 h2{
- color: blueviolet; 
+ color: rgb(9, 9, 9); 
    border: 0;
   border: 1px blueviolet solid; 
   
 }
 body{
-background-color: aqua;    
+background-color: rgb(255, 251, 0);    
 }
