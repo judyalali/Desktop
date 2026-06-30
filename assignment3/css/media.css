@@ -1,0 +1,236 @@
+
+
+
+
+/* ==========================================================================
+   1. الشاشات الصغيرة (الهواتف والتابلت الصغير)
+   ========================================================================== */
+@media (min-width: 37.5rem) and (max-width: 48rem) {
+    .nav-list {
+        display: none;
+        /* تختفي لتظهر عبر الهامبرغر الجافاسكريبت */
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: rgba(11, 4, 58, 0.95);
+        position: absolute;
+        top: 5rem;
+        left: 0;
+        z-index: 999;
+        padding: 1.5rem 0;
+        gap: 1.5rem;
+    }
+
+    /* كلاس التفعيل الخاص بالجافاسكريبت */
+    .nav-list.active {
+        display: flex;
+    }
+
+    .nav-list ul {
+        flex-direction: column;
+        gap: 1.25rem;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .whitelogo-img {
+        width: 70% !important;
+    }
+
+    .title2 h1,
+    .title1 h1 {
+        font-size: 2.5rem;
+        letter-spacing: 0.1875rem;
+    }
+
+    .content p {
+        margin: 0.625rem;
+        font-size: 1rem;
+    }
+
+    .button2 {
+        padding: 0.4375rem 1.125rem;
+    }
+
+    /* الخدمات تحول لعمود كامل */
+    .item {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .parent h2 {
+        font-size: 1.875rem;
+    }
+
+    /* من نحن تحول لعمود كامل */
+    .firstpart,
+    .secondpart {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .secondpart {
+        padding-top: 1.5rem;
+    }
+
+    .button3 {
+        padding: 0.4375rem 1.125rem;
+    }
+
+    .explanation2 {
+        font-size: 1.875rem;
+    }
+
+    /* الفوتر */
+    .container5 {
+        width: 90%;
+    }
+
+    .footer-title {
+        font-size: 2.5rem;
+    }
+
+    .paragraph4 {
+        padding: 1rem;
+    }
+
+    .button4 {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .footer-site {
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: center;
+    }
+
+    .footer-list ul {
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .green-logo img {
+        margin: auto;
+    }
+}
+
+/* ==========================================================================
+   2. الشاشات المتوسطة (التابلت والشاشات المتوسطة)
+   ========================================================================== */
+@media (min-width: 48.0625rem) and (max-width: 62rem) {
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: rgba(11, 4, 58, 0.95);
+        position: absolute;
+        top: 5rem;
+        left: 0;
+        z-index: 999;
+        padding: 1.5rem 0;
+        gap: 1.5rem;
+    }
+
+    .nav-list.active {
+        display: flex;
+    }
+
+    .nav-list ul {
+        flex-direction: column;
+        gap: 1.25rem;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .title2 h1,
+    .title1 h1 {
+        font-size: 3.125rem;
+    }
+
+    .content p {
+        font-size: 1.1875rem;
+    }
+
+    .item {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2.5rem;
+    }
+
+    .paragraph {
+        font-size: 1.1rem;
+        line-height: 1.6rem;
+    }
+
+    .firstpart,
+    .secondpart {
+        width: 100%;
+        text-align: center;
+    }
+
+    .secondpart {
+        padding-top: 2rem;
+    }
+
+    .explanation2 {
+        font-size: 2rem;
+    }
+
+    .footer-site {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}
+
+/* ==========================================================================
+   3. الشاشات الكبيرة (شاشات الكمبيوتر القياسية)
+   ========================================================================== */
+@media (min-width: 62.0625rem) and (max-width: 75rem) {
+
+    .explanation2 br,
+    .paragraph3 br {
+        display: none;
+    }
+
+    .explanation2 {
+        font-size: 1.8rem;
+    }
+
+    .paragraph3 {
+        font-size: 1rem;
+    }
+
+    .button4 {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+  
+
+
+
+
+
+
+
+
+
+        
+
+
+
+ 
+
+
+
+
